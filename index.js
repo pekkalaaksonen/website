@@ -5,9 +5,16 @@ const path = require("path")
 
 app.use(express.static(path.join(__dirname, "public")))
 
-app.get("/", (req, res) => {
-    res.send("Hello world.")
+app.use((req, res) => {
+    if (res.status(404)) {
+        res.send("404")
+    }
 })
+
+/* app.get("/", (req, res) => {
+    res.send("Hello world.")
+}) */
+
 
 app.listen(port, () => {
     console.log(`Server started on port ${port}`)
