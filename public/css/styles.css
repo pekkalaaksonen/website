@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Boing-Bold;
+    src: url(../fonts/boing-bold/Boing-Bold.woff2) format("woff2");
+    font-display: block;
+}
+
+html {
+    height: 100%;
+    background:
+        linear-gradient(45deg, hsla(213, 55%, 24%, 1) 0%, hsla(213, 55%, 24%, 0) 70%),
+        linear-gradient(135deg, hsla(245, 46%, 82%, 1) 10%, hsla(245, 46%, 82%, 0) 80%),
+        linear-gradient(225deg, hsla(217, 96%, 38%, 1) 10%, hsla(217, 96%, 38%, 0) 80%),
+        linear-gradient(315deg, hsla(9, 95%, 54%, 1) 100%, hsla(9, 95%, 54%, 0) 70%);
+}	
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+#name {
+    letter-spacing: -0.08em;
+    text-align: center;
+    font-family: "proxima_nova_altblack", Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    color: #e54646;
+}
+
+#email {
+    text-align: center;
+    font-family: "Boing-Bold", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    color: #fff;
+    padding-top: 5%;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    height: 30%;
+}
+
+#socialmedia {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.icon {
+    fill: #e54646;
+    fill-rule: evenodd;
+    transition: all 0.1s;
+    transform-origin: 50% 50%;
+}
+
+.icon:hover {
+    fill: hotpink;
+    fill-rule: evenodd;
+    transform: scale(0.9);
+}
+
+#background {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    background-color: rgb(126, 119, 121);
+    height: 660px;
+    transform: skewY(-12deg)
+}
