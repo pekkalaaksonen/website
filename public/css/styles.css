@@ -6,7 +6,7 @@
 
 html {
     height: 100%;
-    background: #170929;
+    background: #000E16;
 }	
 
 body {
@@ -19,7 +19,7 @@ body {
     text-align: center;
     font-family: "proxima_nova_altblack", Georgia, 'Times New Roman', Times, serif;
     font-size: 5vw;
-    color: #e54646;
+    color: #B82E49;
 }
 
 #email {
@@ -49,16 +49,16 @@ body {
 }
 
 .icon {
-    fill: #e54646;
+    fill: #BB9D05;
     fill-rule: evenodd;
     transition: all 0.1s;
     transform-origin: 50% 50%;
 }
 
 .icon:hover {
-    fill: hotpink;
+    fill: #FFE45D;
     fill-rule: evenodd;
-    transform: scale(0.9);
+    transform: scale(1.08);
 }
 
 #background {
