@@ -4,7 +4,7 @@ const port = 3000
 const path = require("path")
 
 app.use(express.static(path.join(__dirname, "public")))
-app.use('/metaballs', express.static('public/code/metaballs'))
+app.use('/metaballs', express.static(path.join(__dirname, 'public/code/metaballs')))
 
 app.use((req, res) => {
     if (res.status(404)) {
