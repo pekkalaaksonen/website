@@ -52,7 +52,8 @@ body {
     fill: #BB9D05;
     fill-rule: evenodd;
     transition: all 0.1s;
-    transform-origin: 50% 50%;
+    transform-origin: center;
+    transform-box: fill-box;
 }
 
 .icon:hover {
@@ -73,4 +74,9 @@ body {
     background-color: rgb(126, 119, 121);
     height: 660px;
     transform: skewY(-12deg)
+}
+
+.svg-wrapper {
+    height: 6vh;
+    width: 6vw;
 }
