@@ -56,6 +56,10 @@ body {
     transform-box: fill-box;
 }
 
+svg {
+    fill: #BB9D05;
+}
+
 .icon:hover {
     fill: #FFE45D;
     fill-rule: evenodd;
@@ -63,7 +67,6 @@ body {
 }
 
 #background {
-
     position: absolute;
     top: 0;
     bottom: 0;
