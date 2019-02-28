@@ -1,10 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Title from "./components/title/title";
+import Socialmedia from "./components/socialmedia/socialmedia";
 
 class App extends Component {
   render() {
     return (
+      <div className="container">
+        <Title />
+        <Socialmedia />
+      </div>
+      /*
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +27,7 @@ class App extends Component {
           </a>
         </header>
       </div>
+      */
     );
   }
 }
