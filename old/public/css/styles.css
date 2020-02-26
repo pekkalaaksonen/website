@@ -1,85 +1,105 @@
-@font-face {
-    font-family: Boing-Bold;
-    src: url(../fonts/boing-bold/Boing-Bold.woff2) format("woff2");
-    font-display: block;
+html {
+  height: 100%;
+  background: #000e16;
 }
 
-html {
-    height: 100%;
-    background: #000E16;
-}	
-
 body {
-    margin: 0px;
-    overflow: hidden;
+  margin: 0px;
+  overflow: hidden;
 }
 
 #name {
-    letter-spacing: -0.08em;
-    text-align: center;
-    font-family: "proxima_nova_altblack", Georgia, 'Times New Roman', Times, serif;
-    font-size: 5vw;
-    color: #B82E49;
+  letter-spacing: -0.08em;
+  text-align: center;
+  font-family: "proxima_nova_altblack", Georgia, "Times New Roman", Times, serif;
+  font-size: 5vw;
+  color: #b82e49;
 }
 
 #email {
-    text-align: center;
-    font-family: "Boing-Bold", Georgia, 'Times New Roman', Times, serif;
-    font-size: 1vw;
-    color: #fff;
-    padding-top: 5%;
+  text-align: center;
+  font-family: "Boing-Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 1vw;
+  color: #fff;
+  padding-top: 5%;
 }
 
 #container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 40%;
-    height: 30%;
+  background: plum;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 40%;
+  height: 30%;
+  animation: fadein 2s;
+  transition: all 1s;
+  transform: translate(0%, -10%);
+  transform-origin: 100% 100%;
+}
+
+#container2 {
+  background: hotpink;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 40%;
+  height: 30%;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #socialmedia {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 15%;
-    padding-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .icon {
-    fill: #BB9D05;
-    fill-rule: evenodd;
-    transition: all 0.1s;
-    transform-origin: center;
-    transform-box: fill-box;
+  fill: #bb9d05;
+  fill-rule: evenodd;
+  transition: all 0.1s;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 
 svg {
-    fill: #BB9D05;
+  fill: #bb9d05;
 }
 
 .icon:hover {
-    fill: #FFE45D;
-    fill-rule: evenodd;
-    transform: scale(1.08);
+  fill: #ffe45d;
+  fill-rule: evenodd;
+  transform: scale(1.08);
 }
 
 #background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 
-    background-color: rgb(126, 119, 121);
-    height: 660px;
-    transform: skewY(-12deg)
+  background-color: rgb(126, 119, 121);
+  height: 660px;
+  transform: skewY(-12deg);
 }
 
 .svg-wrapper {
-    height: 6vh;
-    width: 6vw;
+  height: 6vh;
+  width: 6vw;
 }
