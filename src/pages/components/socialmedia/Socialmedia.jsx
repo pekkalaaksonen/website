@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import "./socialmedia.css";
+import styles from "./Socialmedia.module.css";
 
 class Socialmedia extends Component {
   render() {
     return (
-      <div className="socialmedia">
-        <div className="svg-wrapper">
+      <div className={styles.socialmedia}>
+        <div className={styles.svgwrapper}>
           <a href="https://www.facebook.com/pekkalaaksonen" target="blank">
             <svg
-              className="icon"
+              className={styles.icon}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 2133.0101 2133.5199"
             >
@@ -20,10 +20,10 @@ class Socialmedia extends Component {
           </a>
         </div>
 
-        <div className="svg-wrapper">
+        <div className={styles.svgwrapper}>
           <a href="https://www.twitter.com/pekkalaaksonen" target="blank">
             <svg
-              className="icon"
+              className={styles.icon}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 61 49.998463"
             >
@@ -35,10 +35,10 @@ class Socialmedia extends Component {
           </a>
         </div>
 
-        <div className="svg-wrapper">
+        <div className={styles.svgwrapper}>
           <a href="https://www.instagram.com/pekkalaaksonen" target="blank">
             <svg
-              className="icon"
+              className={styles.icon}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 6999.9997 6999.9997"
             >
@@ -49,10 +49,10 @@ class Socialmedia extends Component {
           </a>
         </div>
 
-        <div className="svg-wrapper">
+        <div className={styles.svgwrapper}>
           <a href="https://www.linkedin.com/in/pekkalaaksonen/" target="blank">
             <svg
-              className="icon"
+              className={styles.icon}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1440.02 1440"
             >
@@ -61,10 +61,10 @@ class Socialmedia extends Component {
           </a>
         </div>
 
-        <div className="svg-wrapper">
+        <div className={styles.svgwrapper}>
           <a href="https://www.github.com/pekkalaaksonen" target="blank">
             <svg
-              className="icon"
+              className={styles.icon}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 42.60677 41.555031"
             >

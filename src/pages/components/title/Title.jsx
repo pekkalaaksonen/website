@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./title.css";
+import styles from "./Title.module.css";
 
 class Title extends Component {
   render() {
-    return <h1 className="name">Pekka Laaksonen</h1>;
+    return <h1 className={styles.name}>Pekka Laaksonen</h1>;
   }
 }
 
