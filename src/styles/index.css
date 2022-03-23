@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "proxima_nova_altblack";
+  src: url("../../public/fonts/proxima-nova/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Black-webfont.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
