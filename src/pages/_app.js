@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <title>Pekka Laaksonen</title>
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

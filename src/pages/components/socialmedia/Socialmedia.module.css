@@ -5,12 +5,9 @@
   padding-right: 15%;
 }
 
-.svgwrapper {
+.logo {
   height: 4vh;
   width: 4vw;
-}
-
-.icon {
   fill: #bb9d05;
   fill-rule: evenodd;
   transition: all 0.1s;
@@ -18,7 +15,7 @@
   transform-box: fill-box;
 }
 
-.icon:hover {
+.logo:hover {
   fill: #ffe45d;
   fill-rule: evenodd;
   transform: scale(1.08);
