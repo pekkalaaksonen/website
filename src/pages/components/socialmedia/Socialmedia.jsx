@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./SocialMedia.module.css";
-import { SocialMediaItems } from "./SocialMediaItems.jsx";
+import { SocialMediaItems } from "./SocialMediaItems";
 
 export default function SocialMedia() {
   return (
