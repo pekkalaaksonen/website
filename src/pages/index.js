@@ -1,5 +1,5 @@
-import Title from "./components/title/Title";
-import SocialMedia from "./components/socialmedia/SocialMedia";
+import Title from "../components/title/Title";
+import SocialMedia from "../components/socialmedia/SocialMedia";
 
 export default function App() {
   return (
