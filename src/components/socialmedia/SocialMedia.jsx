@@ -4,16 +4,16 @@ import { SocialMediaItems } from "./SocialMediaItems";
 
 export default function SocialMedia() {
   return (
-    <div className={styles.socialmedia}>
+    <ul className={styles["service-list"]}>
       {SocialMediaItems.map((item, i) => {
         return (
-          <div key={i} className={styles.logo}>
+          <li key={i} className={styles["service-list-item"]}>
             <a href={item.url} target="new">
               {item.logo}
             </a>
-          </div>
+          </li>
         );
       })}
-    </div>
+    </ul>
   );
 }

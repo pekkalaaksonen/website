@@ -1,11 +1,11 @@
-.socialmedia {
+.service-list {
   display: flex;
   justify-content: space-between;
   padding-left: 15%;
   padding-right: 15%;
 }
 
-.logo {
+.service-list-item {
   height: 4vh;
   width: 4vw;
   fill: #bb9d05;
@@ -15,7 +15,7 @@
   transform-box: fill-box;
 }
 
-.logo:hover {
+.service-list-item:hover {
   fill: #ffe45d;
   fill-rule: evenodd;
   transform: scale(1.08);
